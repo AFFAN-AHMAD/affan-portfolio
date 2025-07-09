@@ -5,7 +5,9 @@ const Hero = () => {
   return (
     <div className="hero">
       <img src={profile_img} alt="" />
-      <h1>Hi, I'm Affan Ahmad</h1>
+      <h1>
+        <span>Hi, I'm Affan Ahmad</span>
+      </h1>
       <p>
         I am a full stack web developer from Delhi, India with 2.5 years of
         experience.
