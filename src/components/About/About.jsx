@@ -19,7 +19,7 @@ const About = () => {
               I am a frontend heavy full stack web developer, I have created
               various interactive UIs and Dashboards
             </p>
-            <p>I am passionate about </p>
+            {/* <p>I am passionate about </p> */}
           </div>
           <div className="about-skills">
             <div className="about-skill">
@@ -39,6 +39,17 @@ const About = () => {
               <hr style={{ width: "50%" }} />
             </div>
           </div>
+        </div>
+      </div>
+      <div className="about-achievements">
+        <div className="about-achievement">
+          <h1>2.5+</h1>
+          <p>Years of experience</p>
+        </div>
+        <hr />
+        <div className="about-achievement">
+          <h1>5+</h1>
+          <p>Projects Completed</p>
         </div>
       </div>
     </div>
