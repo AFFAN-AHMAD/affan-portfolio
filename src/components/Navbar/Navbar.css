@@ -53,6 +53,11 @@
   display: none;
   cursor: pointer;
 }
+@media (max-width: 1500px) {
+  .nav-connect {
+    display: none;
+  }
+}
 @media (max-width: 768px) {
   .navbar {
     margin: 20px 50px;

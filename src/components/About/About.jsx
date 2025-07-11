@@ -11,7 +11,11 @@ const About = () => {
       </div>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_img} alt="" />
+          <img
+            src={profile_img}
+            alt=""
+            style={{ width: "300px", borderRadius: "100%" }}
+          />
         </div>
         <div className="sbout-right">
           <div className="about-para">
@@ -37,6 +41,18 @@ const About = () => {
             <div className="about-skill">
               <p>Node JS</p>
               <hr style={{ width: "50%" }} />
+            </div>
+            <div className="about-skill">
+              <p>MySql</p>
+              <hr style={{ width: "70%" }} />
+            </div>
+            <div className="about-skill">
+              <p>MongoDB</p>
+              <hr style={{ width: "50%" }} />
+            </div>
+            <div className="about-skill">
+              <p>Express</p>
+              <hr style={{ width: "70%" }} />
             </div>
           </div>
         </div>
