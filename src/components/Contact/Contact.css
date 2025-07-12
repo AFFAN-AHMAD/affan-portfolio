@@ -117,6 +117,15 @@
   transition: 0.3s;
 }
 
+@media (max-width: 1500px) {
+  .contact-section {
+    display: flex;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+  }
+}
+
 @media (max-width: 768px) {
   .contact {
     gap: 50px;
@@ -153,7 +162,7 @@
   }
 
   .contact-right {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 400px;
   }
   .contact-right input {

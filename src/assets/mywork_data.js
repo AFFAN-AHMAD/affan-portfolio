@@ -10,11 +10,15 @@ const mywork_data = [
     w_no: 1,
     w_name: "Web design",
     w_img: project1_img,
+    w_github: "https://github.com/AFFAN-AHMAD/carRental-client",
+    w_live: "https://car-rental-project-by-affan.netlify.app/",
   },
   {
     w_no: 2,
     w_name: "Web design",
     w_img: project2_img,
+    w_github: "https://github.com/AFFAN-AHMAD/real-estate",
+    w_live: "https://real-estate-project-by-affan.netlify.app/",
   },
   // {
   //   w_no: 3,
