@@ -10,18 +10,21 @@ const About = () => {
         <img src={theme_pattern} alt="" />
       </div>
       <div className="about-sections">
-        <div className="about-left">
+        {/* <div className="about-left">
           <img
             src={profile_img}
             alt=""
             style={{ width: "300px", borderRadius: "100%" }}
           />
-        </div>
+        </div> */}
         <div className="sbout-right">
           <div className="about-para">
             <p>
-              I am a frontend heavy full stack web developer, I have created
-              various interactive UIs and Dashboards
+              Dynamic full stack web developer with 2.5 years of experience
+              delivering scalable solutions. Skilled in front-end and back-end
+              development, problem-solving, and effective communication. Adept
+              at collaborating with cross-functional teams to create
+              high-quality, user-focused web applications.{" "}
             </p>
             {/* <p>I am passionate about </p> */}
           </div>

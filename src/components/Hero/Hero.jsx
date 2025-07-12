@@ -13,10 +13,10 @@ const Hero = () => {
       <h1>
         <span>Hi, I'm Affan Ahmad</span>
       </h1>
-      <p>
+      {/* <p>
         I am a full stack web developer from Delhi, India with 2.5 years of
         experience.
-      </p>
+      </p> */}
       <div className="hero-action">
         <AnchorLink className="anchor-link" offset={50} href="#contact">
           <div className="hero-connect">Connect with me</div>
